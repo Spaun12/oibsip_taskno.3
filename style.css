@@ -1,3 +1,4 @@
+/* Styles for the conversion and reset buttons */
 #convert {
     background-color: #af8a10;
 }
@@ -14,20 +15,20 @@
     background-color: #066570;
 }
 
+/* Styles for the body background image */
 body {
-    height: 100%;
-    width: 100%;
     background: url('images/bg.jpg');
-    background-size: 100%auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
+/* Styles for the main heading */
 h1 {
     font-family: sans-serif;
     color: rgb(9, 17, 182);
 }
 
-
+/* Styles for the input fields */
 input {
     display: block;
     padding: 10px 20px;
@@ -38,13 +39,20 @@ input {
     font-family: sans-serif;
 }
 
+/* Styles for the placeholders inside the input fields */
 ::-webkit-input-placeholder {
     color: rgb(177, 238, 242);
 }
 
-
+/* Styles for the buttons */
 button {
     padding: 10px;
     font-size: 1.2em;
     color: rgb(255, 255, 255);
 }
+
+/* Contributor note:
+ * Michael Connell
+ * For educational purposes - College project assignment
+ * Date: 2023-08-12
+ */
